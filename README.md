@@ -4,7 +4,7 @@
 ---
 
 ##  Project Overview  
-This project presents a deep learning pipeline to classify skin cancer lesions as **benign** or **malignant** using dermoscopic images. We trained and evaluated five different convolutional neural network (CNN) models to compare their effectiveness in detecting melanoma from images.
+In this project, a complete deep learning workflow was designed to detect skin cancer from dermoscopic images. Five different CNN models were trained and assessed for their effectiveness in distinguishing between benign and malignant lesions.
 
 ###  Models Used:
 -  Custom CNN  
