@@ -26,22 +26,6 @@ Each model was trained using a preprocessed dataset with balanced classes and au
   - 0 = Benign  
   - 1 = Malignant  
 
-###  Preprocessing:
-- Resized images based on model requirements (224x224 to 380x380)  
-- Normalized pixel values to [0, 1]  
-- Applied data augmentation (flip, rotate, zoom, brightness)  
-- Used class weights to handle data imbalance
-
----
-
-##  Training Details
-- **Epochs:** 10  
-- **Batch Size:** 32  
-- **Optimizer:** Adam with learning rate decay  
-- **Loss Function:** Binary Crossentropy  
-- **Callbacks:** EarlyStopping, ModelCheckpoint  
-- **Validation Split:** 10% from training data
-
 ---
 
 ##  Evaluation Metrics
@@ -52,10 +36,6 @@ The models were evaluated using the following metrics:
 - F1-Score  
 - Confusion Matrix  
 - ROC AUC Curve  
-
-
->  **Best Validation Accuracy:** ResNet50V2 with 91.5%  
->  **EfficientNetB2 Misclassified Samples:** 332/1000
 
 ---
 
